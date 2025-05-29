@@ -73,6 +73,7 @@ O banco de dados será futuramente gerenciado por outro membro da equipe.
 Não é necessário JavaScript na index.html ou paginaInicial.html, pois são estáticas.
 
 🤝 Contribuições
+
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 
