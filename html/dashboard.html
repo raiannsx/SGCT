@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard - Sistema de Chamados</title>
+  <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+<body>
+
+  <header>
+    <h1>Sistema de Gestão de Chamados Técnicos</h1>
+  </header>
+  
+  <main>
+    <button id="btnAbrirChamado" class="btn">Abrir Novo Chamado</button>
+
+    <section id="formNovoChamado" style="display: none; margin-top: 20px;">
+      <h2>Novo Chamado</h2>
+      <form id="formChamado">
+        <label for="descricao">Descrição:</label><br>
+        <textarea id="descricao" required></textarea><br><br>
+
+        <button type="submit" class="btn">Enviar Chamado</button>
+      </form>
+    </section>
+
+    <section id="listaChamados" style="margin-top: 30px;">
+      <h2>Meus Chamados</h2>
+
+      <!-- Exemplo de card inicial -->
+      <div class="pedidoCard">
+        <p><strong>Descrição:</strong> Pedido de exemplo</p>
+        <p class="status"><strong>Status:</strong> Aberto</p>
+        <button class="btn btnStatus">Atualizar Status</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="../js/dashboard.js"></script>
+</body>
+</html>
